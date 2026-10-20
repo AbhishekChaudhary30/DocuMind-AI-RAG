@@ -1,0 +1,37 @@
+# DocuMind AI — Dependencies
+# Pinned to stable, mutually compatible versions tested on Python 3.11 - 3.13
+
+# Core Web Application Framework
+streamlit>=1.36.0,<2.0.0
+
+# Data Validation and Configuration Management
+pydantic>=2.7.0,<3.0.0
+pydantic-settings>=2.2.0,<3.0.0
+
+# Document Processing & PDF Text Extraction
+pymupdf>=1.24.0,<3.0.0
+
+# Numerical Operations & Tabular Processing
+numpy>=1.26.0,<3.0.0
+pandas>=2.0.0,<3.0.0
+scipy>=1.14.0,<2.0.0
+scikit-learn>=1.5.0,<2.0.0
+
+# Vector Similarity Search & Keyword Retrieval
+faiss-cpu>=1.9.0,<2.0.0
+rank-bm25>=0.2.2,<1.0.0
+
+# Neural Embeddings & Transformers
+torch>=2.2.0
+transformers>=4.40.0
+sentence-transformers>=3.0.0
+
+# Image & Asset Handling
+pillow>=10.0.0,<12.0.0
+
+# Environment Management & HTTP Communication
+python-dotenv>=1.0.0,<2.0.0
+requests>=2.31.0,<3.0.0
+
+# Quality Assurance & Testing Suite
+pytest>=8.0.0,<9.0.0

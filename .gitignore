@@ -1,0 +1,84 @@
+# ==========================================
+# DocuMind AI — Git Ignore Configuration
+# ==========================================
+
+# Environment variables & Local Secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+secrets.toml
+
+# Python runtime artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Testing and Code Quality
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.ruff_cache/
+.mypy_cache/
+
+# Application Logs & Diagnostics
+*.log
+logs/
+diagnostic_logs/
+
+# Data, Uploads & Temporary Session Storage
+data/exports/*
+!data/exports/.gitkeep
+data/uploads/*
+!data/uploads/.gitkeep
+temp/
+tmp/
+*.tmp
+
+# Vector Databases, Embeddings & Model Caches
+chroma_db/
+faiss_index/
+lancedb/
+*.db
+*.sqlite
+*.sqlite3
+.cache/
+huggingface/
+torch/
+
+# Operating System & IDE Files
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+*~
